@@ -37,3 +37,61 @@ tr {
   min-height: 25px;
   height: 25px;
 }
+
+@media only screen and (max-width: 600px) {
+  input {
+    width: 30px;
+  }
+
+  .data {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+  }
+
+  .display-3 {
+    font-size: 40px;
+  }
+
+  .lead {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  input {
+    width: 25px;
+  }
+
+  .data {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 365px) {
+  input {
+    width: 22px;
+    font-size: 13px;
+  }
+
+  .data {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  input {
+    width: 20px;
+    font-size: 12px;
+  }
+
+  .data {
+    width: 27px;
+    height: 27px;
+    padding: 2px;
+  }
+}

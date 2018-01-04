@@ -173,7 +173,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App mb-3">
         <div className="jumbotron">
           <h1 className="display-3">Sudoku Solver</h1>
           <p className="lead">Fill in the squares with the numbers you know (leave any unknown squares as 0). Then hit Solve Puzzle to see the solution.</p>
